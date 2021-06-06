@@ -18,15 +18,20 @@ module.exports = {
       },
       items: [
         {
+          to: "/",
+          label: "首页",
+          position: "right",
+        },
+        {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
+          position: 'right',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/GHLxdy/guohailin.com',
+          label: '本站源码',
           position: 'right',
         },
       ],
